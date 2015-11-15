@@ -43,8 +43,8 @@ angular.module('starter.controllers', [])
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
-    { title: 'Date', page: 'date-listing' },
     { title: 'Single', page: 'single-listing' },
+    { title: 'Date', page: 'date-listing' },
     { title: 'Group', page: 'group-listing' },
     { title: 'Wildcard', page: 'wildcard-listing' }
   ];
